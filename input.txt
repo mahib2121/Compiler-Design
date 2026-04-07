@@ -1,0 +1,8 @@
+Compiler Lab
+123
+int main(){
+int x;
+x=10;
+cout<<"Hello World";
+return 0;
+}
