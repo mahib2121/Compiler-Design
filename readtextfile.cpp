@@ -2,13 +2,15 @@
 #include <fstream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     cout << "Program started\n";
 
     ifstream file("input.txt");
 
-    if (!file.is_open()) {
+    if (!file.is_open())
+    {
         cout << "Error: Cannot open file!" << endl;
         return 1;
     }
@@ -17,7 +19,8 @@ int main() {
 
     cout << "File content:\n";
 
-    while (getline(file, line)) {
+    while (getline(file, line))
+    {
         cout << line << endl;
     }
 
